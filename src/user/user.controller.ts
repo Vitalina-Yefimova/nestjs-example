@@ -4,8 +4,6 @@ import {
   Post,
   Put,
   Delete,
-  Param,
-  Body,
   ParseIntPipe,
 } from '@nestjs/common';
 import { UserService } from './user.service'; // Импорт UserService, который содержит бизнес-логику для работы с пользователями
